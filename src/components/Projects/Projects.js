@@ -70,7 +70,7 @@ function Projects() {
               imgPath={rock_paper_scissor}
               isBlog={false}
               title="𝓡𝓞𝓒𝓚 𝓟𝓐𝓟𝓔𝓡 𝓢𝓒𝓘𝓢𝓢𝓞𝓡𝓢"
-              description="Rock-Paper-Scissors is a game where users compete against a computer and track scores."
+              description="A game where users compete against a computer and track scores."
               ghLink="https://github.com/Avi1927/Rock-Paper-Scissor-Game"
               demoLink="https://rock-paper-scissor-mini-project.netlify.app"
             />
