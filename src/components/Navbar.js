@@ -1,3 +1,5 @@
+// edit github portfolio link
+
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -37,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <span className="img-fluid logo purple" ><b><Nav.Item>HM.</Nav.Item></b></span>
+          <span className="img-fluid logo purple" ><b><Nav.Item>AP.</Nav.Item></b></span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

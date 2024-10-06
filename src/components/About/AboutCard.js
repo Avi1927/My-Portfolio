@@ -8,12 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Harshal Makwana </span>
-            from <span className="purple"> vadodara, Gujarat, India.</span>
+            Hi Everyone, I am <span className="purple">Avi Patel</span>
+            from <span className="purple"> Vadodara, Gujarat, India.</span>
             <br />
-            I am currently working as a Freelance Software Engineer
+            I am currently doing training & internship as ReactJs Developer Trainee.
             <br />
-            I have completed  B.tech in Computer Sciecne Engineering from ITM SLS University
+            I have completed  B.tech in Computer Science Engineering from Parul University.
             
             <br />
             <br />
@@ -30,9 +30,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Success is not a desire, its a necessity!"{" "}
+            "You can achieve each & everything, if you really need it!"{" "}
           </p>
-          <footer className="blockquote-footer">Harshal Makwana</footer>
+          <footer className="blockquote-footer">Avi Patel</footer>
         </blockquote>
       </Card.Body>
     </Card>

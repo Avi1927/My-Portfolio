@@ -2,10 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatbot from "../../Assets/Projects/thechatbot.png";
-import tictactoe from "../../Assets/Projects/tictactoe.png";
-import mailandesha from "../../Assets/Projects/mailandesha.png";
-
+import movie_app from "../../Assets/Projects/movie_app.jpeg";
+import weather_app from "../../Assets/Projects/weather-app.jpeg";
+import covid19 from "../../Assets/Projects/covid19.jpeg";
+import tictactoe from "../../Assets/Projects/tic-tac-toe.jpeg";
+import rock_paper_scissor from "../../Assets/Projects/rock-paper-scissor.jpeg";
 
 function Projects() {
   return (
@@ -21,12 +22,35 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mailandesha}
+              imgPath={movie_app}
               isBlog={false}
-              title="Mailandesha"
-              description="An email marketing site with wich you can create your  personized campaigns "
-              ghLink="https://github.com/harshal-makwana/mailandesha-client"
-              demoLink="https://mailandesha.netlify.app/"
+              title="𝐌𝐎𝐕𝐈𝐄 𝓐𝓟𝓟𝓢"
+              description="Movie App searches your favourite movie you want."
+              ghLink="https://github.com/Avi1927/Movie-App"
+              demoLink="https://movie-app-by-avi-patel.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weather_app}
+              isBlog={false}
+              title="𝓦𝓔𝓐𝓣𝓗𝓔𝓡 𝓐𝓟𝓟𝓢"
+              description="Weather App helps you to find the weather easily of your city or nation."
+              ghLink="https://github.com/Avi1927/weather_app"
+              demoLink="https://weather-app-by-avi-patel.netlify.app/"
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={covid19}
+              isBlog={false}
+              title="𝒞𝒪𝒱𝐼𝒟-𝟣𝟫 𝒮𝒯𝒜𝒯𝐼𝒮𝒯𝐼𝒞𝒮"
+              description="A React app showing real-time COVID-19 stats by country and date."
+              ghLink="https://github.com/Avi1927/Covid19-Stats-Website"
+              demoLink="https://covid19-statistics-website.netlify.app/"
             />
           </Col>
 
@@ -34,33 +58,21 @@ function Projects() {
             <ProjectCard
               imgPath={tictactoe}
               isBlog={false}
-              title="Tic-Tac-Toe"
-              description="TIC_TAC_TOE game with minimax algorithm which is unbeatable"
-              ghLink="https://unbeatable-tic-tac-toe-ai.netlify.app/"
-              demoLink="https://unbeatable-tic-tac-toe-ai.netlify.app/"
-            />
-          </Col>
-
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={"https://cdn.analyticsvidhya.com/wp-content/uploads/2020/08/Sentiment-Analysis-scaled.jpg"}
-              isBlog={false}
-              title="Sentiment_Analysis"
-              description="Sentiment_Analysis for movie reviews using LSTM and Attension mechanism "
-              ghLink="https://unbeatable-tic-tac-toe-ai.netlify.app/"
-              // demoLink="hhttps://unbeatable-tic-tac-toe-ai.netlify.app/"
+              title="𝓣𝓘𝓒-𝓣𝓐𝓒-𝓣𝓞𝓔"
+              description="Tic Tac Toe game where users play against computer with random moves."
+              ghLink="https://github.com/Avi1927/Tic-Tac-Toe-Game"
+              demoLink="https://tic-tac-toe-game-webapp.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatbot}
+              imgPath={rock_paper_scissor}
               isBlog={false}
-              title="Ana_the_chatBot"
-              description="AI chatbot for tasks like : Text summarey , Ai chatbot, Image creation and JS converter"
-              ghLink="https://github.com/harshal-makwana/chatbotgpt"
-              demoLink="https://anathechatbot.netlify.app/"
+              title="𝓡𝓞𝓒𝓚 𝓟𝓐𝓟𝓔𝓡 𝓢𝓒𝓘𝓢𝓢𝓞𝓡𝓢"
+              description="Rock-Paper-Scissors is a game where users compete against a computer and track scores."
+              ghLink="https://github.com/Avi1927/Rock-Paper-Scissor-Game"
+              demoLink="https://rock-paper-scissor-mini-project.netlify.app"
             />
           </Col>
         </Row>
