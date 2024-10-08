@@ -59,7 +59,7 @@ function Projects() {
               imgPath={tictactoe}
               isBlog={false}
               title="𝓣𝓘𝓒-𝓣𝓐𝓒-𝓣𝓞𝓔"
-              description="Tic Tac Toe game where users play against computer with random moves."
+              description="Tic Tac Toe game where users play against each-other."
               ghLink="https://github.com/Avi1927/Tic-Tac-Toe-Game"
               demoLink="https://tic-tac-toe-game-webapp.netlify.app/"
             />
