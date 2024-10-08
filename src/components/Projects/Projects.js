@@ -24,7 +24,7 @@ function Projects() {
             <ProjectCard
               imgPath={movie_app}
               isBlog={false}
-              title="𝐌𝐎𝐕𝐈𝐄 𝓐𝓟𝓟𝓢"
+              title="MOVIE APPS"
               description="Movie App searches your favourite movie you want."
               ghLink="https://github.com/Avi1927/Movie-App"
               demoLink="https://movie-app-by-avi-patel.netlify.app/"
@@ -35,7 +35,7 @@ function Projects() {
             <ProjectCard
               imgPath={weather_app}
               isBlog={false}
-              title="𝓦𝓔𝓐𝓣𝓗𝓔𝓡 𝓐𝓟𝓟𝓢"
+              title="WEATHER APPS"
               description="Weather App helps you to find the weather easily of your city or nation."
               ghLink="https://github.com/Avi1927/weather_app"
               demoLink="https://weather-app-by-avi-patel.netlify.app/"
@@ -47,7 +47,7 @@ function Projects() {
             <ProjectCard
               imgPath={covid19}
               isBlog={false}
-              title="𝒞𝒪𝒱𝐼𝒟-𝟣𝟫 𝒮𝒯𝒜𝒯𝐼𝒮𝒯𝐼𝒞𝒮"
+              title="COVID-19 STATISTICS"
               description="A React app showing real-time COVID-19 stats by country and date."
               ghLink="https://github.com/Avi1927/Covid19-Stats-Website"
               demoLink="https://covid19-statistics-website.netlify.app/"
@@ -58,7 +58,7 @@ function Projects() {
             <ProjectCard
               imgPath={tictactoe}
               isBlog={false}
-              title="𝓣𝓘𝓒-𝓣𝓐𝓒-𝓣𝓞𝓔"
+              title="TIC TAC TOE"
               description="Tic Tac Toe game where users play against each-other."
               ghLink="https://github.com/Avi1927/Tic-Tac-Toe-Game"
               demoLink="https://tic-tac-toe-game-webapp.netlify.app/"
@@ -69,7 +69,7 @@ function Projects() {
             <ProjectCard
               imgPath={rock_paper_scissor}
               isBlog={false}
-              title="𝓡𝓞𝓒𝓚 𝓟𝓐𝓟𝓔𝓡 𝓢𝓒𝓘𝓢𝓢𝓞𝓡𝓢"
+              title="ROCK PAPER SCISSORS"
               description="A game where users compete against a computer and track scores."
               ghLink="https://github.com/Avi1927/Rock-Paper-Scissor-Game"
               demoLink="https://rock-paper-scissor-mini-project.netlify.app"
